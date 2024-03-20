@@ -68,8 +68,8 @@ const Sidebar = ({ sidebar, category, setCategory }) => {
           <p>Music</p>
         </div>
         <div
-          className={`side-link ${category === 22 ? "active" : ""}`}
-          onClick={() => setCategory(22)}
+          className={`side-link ${category === 15 ? "active" : ""}`}
+          onClick={() => setCategory(15)}
         >
           <img src={blogs} alt="" />
           <p>Blogs</p>
